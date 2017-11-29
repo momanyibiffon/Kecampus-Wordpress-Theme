@@ -1,0 +1,128 @@
+/*
+Theme Name: KeCampus Wordpress Theme
+Theme URI: http://wordpress.org/themes/kecampus-wordpress-theme
+Author: Biffon Momanyi
+Author URI: http://wordpress.org/themes/kecampus-wordpress-theme
+Description: KeCampus news website Wordpress responsive theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: kecampus-wordpress-theme
+*/
+
+#myHeader{
+	background-color: #023c82;
+	display: inline-block;
+	color: white;
+}
+#myHeader ul li a{
+	background-color: #023c82;
+	color: #fff;
+}
+#myHeader ul li a:hover{
+	color: #fff;
+	background-color: rgb(0,0,0,0.5);
+}
+.blog-post-meta{
+	background-color: lavender;
+	display: inline;
+	float: left;
+}
+.blog-post-meta a{
+	text-decoration: none;
+}
+.post-thumb img{
+	width: 100%;
+	height: auto;
+}
+.blog-post-title{
+	margin-left: .5em;
+}
+.content-post-thumb img{
+	width: 50%;
+	height: auto;
+	float: left;
+	padding: 0em 2em 2em 0em;
+}
+.post-category{
+    float: right;
+}
+.post-categories{
+	background-color: lavender;
+}
+.post-categories li{
+	list-style-type: none;
+}
+.post-categories li a{
+	text-decoration: none;
+}
+.comments{
+	border: 1px solid grey;
+	border-radius: 10px;
+	padding: 10px;
+}
+.comment-meta img{
+	float: left;
+	margin-right: 10px;
+}
+.comments li{
+	list-style-type: none;
+}
+.comment-body{
+	padding: 10px;
+	border: 1px solid lavender;
+}
+.comment-reply-link{
+	display: inline-block;
+	background-color: #023c82;
+	color: white;
+	padding: 10px;
+}
+.comment-form input, .comment-form textarea{
+	width: 100%;
+	padding: 4px;
+	margin-bottom: 15px;
+	border-radius: 5px;
+	max-width: 100%;
+	min-width: 100%;
+	min-height: 5%
+}
+.form-submit input#submit{
+	background-color: #023c82;
+	color: #fff;
+}
+.btn-primary{
+	background-color: #023c82;
+}
+.search-form input.search-field{
+	width: 99.8%;
+}
+.advert1{
+	width: 100%;
+	height: 30%;
+	background-color: lavender;
+}
+.advert1 h3{
+	padding: 3em 2em;
+}
+.post-excerpt p{
+	clear: both;
+}
+.error{
+	padding: 5em;
+	text-align: center;
+}
+form#loginform p input{
+	border-radius: 5px;
+}
+form#loginform p input#wp-submit{
+	background-color: #023c82;
+	color: #fff;
+
+}
+form#loginform{
+	border: 1px solid grey;
+	padding: 20px;
+	border-radius: 8px;
+}
